@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>2.0.3</Version>
+    <Authors>Somogyi Krisztian</Authors>
+    <Description>A utility lib, to read checkbox control and radio button control status from *.xlsx</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl></RepositoryUrl>
+    <Company>somogyi.xyz</Company>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>Somogyi.ExcelUtil</PackageId>
+    <Product>ExcelUtility</Product>
+    <Copyright>Copyright (c) somogyi.xyz 2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>
